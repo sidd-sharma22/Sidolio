@@ -36,7 +36,12 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a href="/Sidd_Resume_AI.pdf" download="Sidd_Resume.pdf" className="button button--small">
+          <a
+            href="/Sidd_Resume_AI.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button button--small"
+          >
             Resume
           </a>
         </div>
@@ -67,7 +72,8 @@ const Navbar = () => {
             ))}
             <a
               href="/Sidd_Resume_AI.pdf"
-              download="Sidd_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="button button--small"
               onClick={() => setIsMobileMenuOpen(false)}
             >

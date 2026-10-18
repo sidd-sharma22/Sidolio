@@ -46,7 +46,12 @@ const HeroSection = () => {
               <a href="#projects" className="button button--secondary">
                 View Projects
               </a>
-              <a href="/Sidd_Resume_AI.pdf" download="Sidd_Resume.pdf" className="button button--secondary">
+              <a
+                href="/Sidd_Resume_AI.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--secondary"
+              >
                 <FileText size={17} aria-hidden="true" />
                 Resume
               </a>
