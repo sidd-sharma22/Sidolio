@@ -9,6 +9,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
+<<<<<<< HEAD
 const App = () => {
   return (
     <div className="app-shell">
@@ -27,5 +28,17 @@ const App = () => {
     </div>
   );
 };
+=======
+const App = () => (
+  <BrowserRouter>
+    <Analytics />
+    <Routes>
+      <Route path="/" element={<Index />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+    <Analytics />
+  </BrowserRouter>
+);
+>>>>>>> c7d6d0110b70dc0ae718586cbfc865669158fafe
 
 export default App;
