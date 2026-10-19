@@ -10,6 +10,7 @@ const App = () => (
       <Route path="/" element={<Index />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
+    <Analytics />
   </BrowserRouter>
 );
 
