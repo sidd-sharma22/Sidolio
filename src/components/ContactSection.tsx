@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Github, Linkedin, Instagram } from 'lucide-react';
+import { Mail, MapPin, Github, Linkedin, Instagram } from 'lucide-react';
 
 const ContactSection = () => {
   const contactInfo = [
